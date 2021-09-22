@@ -31,7 +31,7 @@ function App() {
                                 <button
                                     className="btn btn-info btn-lg mt-lg-auto mt-3"
                                     onClick={() => {
-                                        setEnergy(3);
+                                        setEnergy(2);
                                         setCards(6);
                                     }}
                                 >
