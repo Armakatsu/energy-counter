@@ -19,7 +19,7 @@ function App() {
                                     onClick={() => {
                                         energy + 3 > 10
                                             ? setEnergy(10)
-                                            : setEnergy(energy + 3);
+                                            : setEnergy(energy + 2);
 
                                         cards + 3 > 12
                                             ? setCards(12)
@@ -31,7 +31,7 @@ function App() {
                                 <button
                                     className="btn btn-info btn-lg mt-lg-auto mt-3"
                                     onClick={() => {
-                                        setEnergy(2);
+                                        setEnergy(3);
                                         setCards(6);
                                     }}
                                 >
